@@ -2,33 +2,29 @@
 
 This is my personal notebook where I'm learning Matplotlib. I made it mainly for myself, but sharing it here in case it helps someone else too.
 
-It's just one Jupyter notebook (`.ipynb`) with notes and code examples, going through Matplotlib basics step by step, with a focus on data science, machine learning, AI, and research.
+It's a collection of notes and code examples covering the Matplotlib concepts I use most often for **Data Science, Data Analysis, EDA, Machine Learning, and AI**.
 
 ## What's inside
 
-* **Basic plots** — line plots, scatter plots, bar charts, horizontal bar charts, histograms, box plots, violin plots, error bars
-* **Figure and axes** — `figure`, `subplots`, `figsize`, `dpi`, `show`, `savefig`
-* **Plot customization** — titles, labels, legends, grids, colors, transparency, line styles, markers
-* **Axis control** — limits, ticks, scales, labels, log scale
-* **Subplots** — creating multiple plots, shared axes, layouts
-* **Images** — `imshow`, image display, grayscale images, image grids
-* **Colormaps and colorbars** — `cmap`, `colorbar`, choosing colors for data
-* **Heatmaps** — visualizing matrices and correlation data
-* **Reference lines and regions** — `axhline`, `axvline`, `axhspan`, `axvspan`
-* **Annotations** — `annotate`, `text`, adding information directly to plots
-* **Statistical plots** — histograms, box plots, violin plots, error bars
-* **Data visualization** — distributions, comparisons, relationships, trends, and correlations
-* **AI/ML visualizations** — training curves, prediction vs actual, residual plots, feature importance, model comparison
-* **Classification plots** — confusion matrices, ROC curves, precision-recall curves
-* **Contour plots** — `contour`, `contourf` for functions and model surfaces
-* **Advanced plots** — `hexbin`, `fill_between`, `stackplot`, `step`, `stem`, `pcolormesh`
-* **Mathematical notation** — equations and symbols using Matplotlib's math text
-* **Saving plots** — PNG, JPG, SVG, PDF, resolution and `dpi`
-* **Plot styles** — `rcParams` and basic Matplotlib styling
-* **Date and number formatting** — `matplotlib.dates` and `matplotlib.ticker`
-* **3D plots** — basic 3D scatter and surface plots
+* **Getting Started** — importing Matplotlib and setting up `pyplot`
+* **Basic Plots** — creating simple plots and working with basic data
+* **Line Plots** — 2D line plots, trends, and time-series data
+* **Plot Customization** — markers, colors, line styles, line width, transparency, and marker settings
+* **Labels & Titles** — `title`, `xlabel`, `ylabel`, tick parameters, and font customization
+* **Grid, Legend & Limits** — `grid`, `legend`, `xlim`, `ylim`, and axis control
+* **Bar Charts** — comparing categorical and numerical data with vertical and horizontal bars
+* **Pie Charts** — showing percentages and category distributions
+* **Scatter Plots** — visualizing relationships, patterns, and correlations between numerical variables
+* **Histograms** — understanding numerical distributions and frequency using bins
+* **Plot Styles** — using Matplotlib's built-in styles
+* **Colored Scatter Plots** — using `cmap` and `colorbar` to represent additional variables
+* **Annotations** — adding labels and reference lines to individual data points
+* **Subplots** — creating multiple plots in one figure using `subplots`
+* **Heatmaps** — visualizing matrix data with `imshow` and colorbars
+* **Pandas + Matplotlib** — creating visualizations directly from Pandas data
+* **Saving Plots** — saving charts and graphs to files such as PDF
 
-(This list matches roughly what's in the notebook — update it if you add more topics.)
+(This list matches what's currently in the notebook — update it if you add more topics.)
 
 ## How to use it
 
@@ -39,10 +35,10 @@ git clone https://github.com/zaibgray/matplotlib.git
 cd matplotlib
 ```
 
-2. Install Matplotlib, NumPy, and Jupyter (if you don't have them):
+2. Install the required libraries:
 
 ```bash
-pip install matplotlib numpy jupyter
+pip install matplotlib numpy pandas jupyter
 ```
 
 3. Open the notebook:
@@ -55,7 +51,11 @@ Then just run the cells one by one.
 
 ## Why I made this
 
-I wanted a simple place to practice Matplotlib and keep notes for myself, especially for data science, machine learning, AI, and research. If it helps you learn too, that's a bonus.
+I wanted a simple place to practice Matplotlib and keep notes for myself while learning Data Science and AI/ML.
+
+It's mainly a reference for the plotting methods, customization options, and visualization techniques I use most often.
+
+If it helps you learn too, that's a bonus.
 
 ## What's next
 
@@ -63,6 +63,7 @@ I wanted a simple place to practice Matplotlib and keep notes for myself, especi
 * **NumPy** — check out my [NumPy notes](https://github.com/zaibgray/numpy)
 * **Pandas** — check out my [Pandas notes](https://github.com/zaibgray/pandas)
 * Official [Matplotlib documentation](https://matplotlib.org/stable/)
+* Matplotlib [Gallery](https://matplotlib.org/stable/gallery/)
 * More notes on my [GitHub account](https://github.com/zaibgray)
 
 ## Repo
